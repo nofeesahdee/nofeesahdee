@@ -17,7 +17,7 @@ I am building projects on frontendmentor.io.
 
 # Reach me or check out my work;
 
-* [Twitter]
-* [Linkedin]
-* [Hashnode]
-* [Frontendmentor]
+* [Twitter] (https://twitter.com/nofeesahdee)
+* [Linkedin] (https://www.linkedin.com/in/dolapo-olatunji-a61b54164/)
+* [Hashnode] (https://hashnode.com/@nofeesahdee)
+* [Frontendmentor] (https://www.frontendmentor.io/profile/nofeesahdee)
