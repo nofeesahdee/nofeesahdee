@@ -13,7 +13,7 @@ I am using resources available online as well as those giving to us in class.
 
 # What I working on?
 
-I am building projects on frontendmentor.io.
+I am currently building projects on frontendmentor.io.
 
 # Reach me or check out my work;
 
