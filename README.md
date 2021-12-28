@@ -15,7 +15,7 @@ I am using resources available online as well as those giving to us in class.
 
 I am currently building projects on frontendmentor.io.
 
-# Reach me or check out my work;
+# Reach me or check out my work ☺️;
 
 * [Twitter](https://twitter.com/nofeesahdee)
 * [Linkedin](https://www.linkedin.com/in/dolapo-olatunji-a61b54164/)
