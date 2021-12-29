@@ -1,6 +1,6 @@
 # Hi there 👋
 
-I am Dolapo an undergraduate studying mathematics and computer science at the university of lagos. I love building web applications that are accessible and of great user experience.
+I am Dolapo an undergraduate studying mathematics and computer science at the university of lagos. I love building web applications that are clean, accessible, and of great user experience.
 
 # What I am learning 📝?
 
