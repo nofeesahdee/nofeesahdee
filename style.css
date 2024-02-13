@@ -27,7 +27,7 @@ nav{
     font-family: 'Roboto Mono', monospace;
     font-size: 15px;
     width: 40%;
-    margin-top:30px;
+    margin:40px 0;
 }
 nav a{
     text-decoration: none;
@@ -101,41 +101,52 @@ p{
         flex-direction: column;
         justify-content: space-between;
         height: 100%;
-        margin:30px;
-    }
-    .header{
-        display: flex;
-        flex-direction: column;
-    }
-    .header-wrapper{
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 150px;
-    }
-    .btn-wrapper{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .btn{
-        display: flex;
-        flex-direction: column;
-        border: none;
-        background: none;
-        align-items: flex-end;
-    }
-    .btn-line{
-        background-color: rgb(255, 255, 255);
-        height: 3px;
-        margin: 5px 0;
-        width: 30px;
-    }
-    .btn-line:first-child{
-        width: 45px;
+        margin:30px; 
     }
     nav{
         display: flex;
         flex-direction: column;
+        width: 100%;
+        margin-top: 0;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .mobile-nav .open{
+        cursor: pointer;
+        transition: top 1s ease-in;
+    }
+    .mobile-nav .close{
+        display: none;
+        cursor: pointer;
+        z-index: 100;
+        position: absolute;
+        transition: top 1s ease-in;
+    }
+    nav .main-menu{
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        background-color: rgb(25, 25, 25);
+        transition: top 1s ease-in;
+        display: none;
+        padding-top: 150px;
+    }
+    nav .main-menu ul{
+        list-style: none;
+    }
+    nav .main-menu ul li{
+        padding: 15px;
+    }
+    nav .main-menu ul li a{
+        text-transform: uppercase;
     }
     .main{
         display: flex;
