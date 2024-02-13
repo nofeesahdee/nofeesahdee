@@ -112,7 +112,7 @@ p{
     .header{
         display: flex;
         justify-content: space-between;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
     .mobile-nav .open{
         cursor: pointer;
@@ -155,7 +155,7 @@ p{
     }
     .main img{
         background-color: #ffffff;
-        border-radius: 100% 40%;
+        border-radius: 50%;
         margin-bottom:10px;
         width: 150px;
         height: 150px;
