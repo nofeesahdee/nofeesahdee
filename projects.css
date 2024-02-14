@@ -1,0 +1,60 @@
+.projects{
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.frontend{
+    margin-top: 40px;
+}
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.card{
+    width: 350px;
+    height: 230px;
+    margin:15px 35px 10px 0;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(155, 155, 155);
+    padding: 20px 30px;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: transform .2s;
+}
+.title{
+    font-size:1rem;
+}
+.btn-home{
+    border: 0;
+    padding: 15px 30px;
+    border-radius: 5px;
+    width: 350px;
+    margin-top: 30px;
+}
+.btn-home a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+@media (max-width:950px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+        margin:20px 0;
+    }
+    .btn-home{
+        width: 100%;
+    }
+}

@@ -11,6 +11,7 @@ body{
     align-items: center;
     background-color: rgb(25, 25, 25);
     color: rgb(255, 255, 255);
+    font-family: 'Roboto Mono', monospace;
 }
 .mobile-container{
     display: none;
@@ -19,6 +20,7 @@ body{
    display: flex;
    box-sizing: border-box;
    flex-direction: column;
+   margin: 30px;
 } 
 nav{
     display: flex;
@@ -92,6 +94,8 @@ p{
     color: rgb(155, 155, 155);
     font-family: 'Roboto Mono', monospace;
 }
+
+
 @media (max-width:950px) {
     .container{
         display: none;
@@ -114,16 +118,14 @@ p{
         justify-content: space-between;
         margin-bottom: 30px;
     }
-    .mobile-nav .open{
+    .mobile-nav{
+        width: 30px;
         cursor: pointer;
-        transition: top 1s ease-in;
     }
     .mobile-nav .close{
         display: none;
-        cursor: pointer;
         z-index: 100;
         position: absolute;
-        transition: top 1s ease-in;
     }
     nav .main-menu{
         align-items: center;
@@ -166,11 +168,22 @@ p{
         margin-bottom: 7px;
         text-transform: capitalize;
     }
+    .details button{
+        border: 0;
+        padding: 10px 30px;
+        border-radius: 5px;
+    }
+    .details button a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: inherit;
+    }
     p{
         margin-bottom: 20px;
         line-height: 20px;
         color: rgb(155, 155, 155);
-        font-size: 13px;
     }
     .links{
         display: flex;
