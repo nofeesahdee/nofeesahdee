@@ -171,6 +171,7 @@ p{
     .details button{
         border: 0;
         padding: 10px 30px;
+        margin: 15px 0;
         border-radius: 5px;
     }
     .details button a{
