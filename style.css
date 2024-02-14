@@ -29,7 +29,7 @@ nav{
     font-family: 'Roboto Mono', monospace;
     font-size: 15px;
     width: 40%;
-    margin:40px 0;
+    margin:20px 0 70px 0;
 }
 nav a{
     text-decoration: none;
@@ -48,7 +48,7 @@ ion-icon{
 }
 main{
     display: flex;
-    margin: 50px; 
+    margin: 30px 50px; 
 }
 main img{
     background-color: #ffffff;
@@ -112,6 +112,7 @@ p{
         flex-direction: column;
         width: 100%;
         margin-top: 0;
+        margin-bottom: 30px;
     }
     .header{
         display: flex;
